@@ -1,0 +1,39 @@
+
+body{
+    text-align: center;
+    height: 1000px;
+    background-image: linear-gradient(60deg, pink,white);
+ }
+.container{
+    width: 400px;
+    min-height: 300px;
+    color: red;
+    background-color: rgba(255, 255, 0, 0.486);
+    margin: auto;
+    backdrop-filter: blur(200px);
+    border-radius: 30px;
+}
+input{
+    border: 2px solid pink;
+    width: 150px;
+    height: 20px;
+    border-radius: 20px;
+}
+#btn{
+    padding: 10px 50px;
+    border-radius: 30px;
+    border: 3px solid green;
+    margin-top: 20px;
+}
+.toppic{
+    padding-top: 30px;
+    border-bottom: 1px solid pink;
+    display: inline-block
+}
+#finalanswer{
+    padding:30px 0 ;
+     border-radius: 50%;
+    color: green;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
